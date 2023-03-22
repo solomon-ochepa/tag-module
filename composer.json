@@ -1,0 +1,33 @@
+{
+    "name": "solomon-ochepa/tag-module",
+    "type": "laravel-module",
+    "description": "Tags - Laravel module.",
+    "keywords": [
+        "tag-module",
+        "laravel-module",
+        "solomon-ochepa",
+        "oki technologies ltd"
+    ],
+    "authors": [
+        {
+            "name": "Solomon Ochepa",
+            "email": "solomon-ochepa@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "nwidart/laravel-modules": "*",
+        "joshbrw/laravel-module-installer": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tag\\": ""
+        }
+    }
+}
